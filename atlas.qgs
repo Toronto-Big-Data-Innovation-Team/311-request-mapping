@@ -22,7 +22,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" name="Service Requests" legend_split_behavior="0" id="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" name="Service Requests" legend_split_behavior="0" id="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
       <customproperties>
         <Option type="Map">
           <Option name="cached_name" type="QString" value="Service Requests"/>
@@ -33,7 +33,7 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" name="Group boundary" legend_split_behavior="0" id="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" name="Group boundary" legend_split_behavior="0" id="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
       <customproperties>
         <Option type="Map">
           <Option name="showFeatureCount" type="int" value="0"/>
@@ -44,12 +44,12 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=MultiCurve checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;geocoded_streets_completed&quot; (geom) sql=qgis_uid NOT IN (40, 67)" name="geocoded_streets_completed" legend_split_behavior="0" id="geocoded_streets_completed_09424e14_61b6_4e5c_abcf_cd7a8059e483" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=MultiCurve checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;geocoded_streets_completed&quot; (geom) sql=qgis_uid NOT IN (40, 67)" name="geocoded_streets_completed" legend_split_behavior="0" id="geocoded_streets_completed_09424e14_61b6_4e5c_abcf_cd7a8059e483" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gis_core&quot;.&quot;centreline_latest&quot; (geom)" name="centreline_latest (major)" legend_split_behavior="0" id="centreline_latest_bb2df9ae_efe0_4831_966e_4997eb350c5b" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gis_core&quot;.&quot;centreline_latest&quot; (geom)" name="centreline_latest (major)" legend_split_behavior="0" id="centreline_latest_bb2df9ae_efe0_4831_966e_4997eb350c5b" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
         <customproperties>
           <Option type="Map">
             <Option name="cached_name" type="QString" value="centreline_latest (major) [50366]"/>
@@ -57,21 +57,21 @@
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gis_core&quot;.&quot;centreline_latest&quot; (geom)" name="centreline_latest (minor)" legend_split_behavior="0" id="centreline_latest_5c396344_62b5_4185_85e9_e6cfc53999f1" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table=&quot;gis_core&quot;.&quot;centreline_latest&quot; (geom)" name="centreline_latest (minor)" legend_split_behavior="0" id="centreline_latest_5c396344_62b5_4185_85e9_e6cfc53999f1" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
         <customproperties>
           <Option type="Map">
             <Option name="cached_name" type="QString" value="centreline_latest (minor)"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;osm_polygon&quot; (way)" name="osm_polygon upper" legend_split_behavior="0" id="osm_polygon_upper_f36db332_199f_4f54_8e62_f708579392e8" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;osm_polygon&quot; (way)" name="osm_polygon upper" legend_split_behavior="0" id="osm_polygon_upper_f36db332_199f_4f54_8e62_f708579392e8" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
         <customproperties>
           <Option type="Map">
             <Option name="cached_name" type="QString" value="osm_polygon upper"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;osm_polygon&quot; (way)" name="osm_polygon lower" legend_split_behavior="0" id="osm_polygon_lower_28848e08_ea7b_4e0e_af10_54bce4d0395f" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+      <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;osm_polygon&quot; (way)" name="osm_polygon lower" legend_split_behavior="0" id="osm_polygon_lower_28848e08_ea7b_4e0e_af10_54bce4d0395f" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
         <customproperties>
           <Option type="Map">
             <Option name="cached_name" type="QString" value="osm_polygon lower"/>
@@ -243,7 +243,7 @@
         <ymax>43.85545434366352424</ymax>
       </wgs84extent>
       <id>centreline_latest_5c396344_62b5_4185_85e9_e6cfc53999f1</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="gis_core"."centreline_latest" (geom)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="gis_core"."centreline_latest" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1609,7 +1609,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>43.85545434366352424</ymax>
       </wgs84extent>
       <id>centreline_latest_bb2df9ae_efe0_4831_966e_4997eb350c5b</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="gis_core"."centreline_latest" (geom)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='centreline_id' srid=4326 type=LineString checkPrimaryKeyUnicity='1' table="gis_core"."centreline_latest" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2927,7 +2927,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>43.82595395882145795</ymax>
       </wgs84extent>
       <id>geocoded_streets_completed_09424e14_61b6_4e5c_abcf_cd7a8059e483</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=MultiCurve checkPrimaryKeyUnicity='1' table="nwessel"."geocoded_streets_completed" (geom) sql=qgis_uid NOT IN (40, 67)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=MultiCurve checkPrimaryKeyUnicity='1' table="nwessel"."geocoded_streets_completed" (geom) sql=qgis_uid NOT IN (40, 67)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3640,7 +3640,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>43.83742184306208145</ymax>
       </wgs84extent>
       <id>kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_group_boundaries" (bound_geom)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_group_boundaries" (bound_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4286,7 +4286,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>43.83742184306208145</ymax>
       </wgs84extent>
       <id>kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_grouped_requests" (geom)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_grouped_requests" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5657,7 +5657,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>56.86135010018850977</ymax>
       </wgs84extent>
       <id>osm_polygon_lower_28848e08_ea7b_4e0e_af10_54bce4d0395f</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."osm_polygon" (way)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."osm_polygon" (way)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7273,7 +7273,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>56.86135010018850977</ymax>
       </wgs84extent>
       <id>osm_polygon_upper_f36db332_199f_4f54_8e62_f708579392e8</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."osm_polygon" (way)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='tid' srid=3857 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."osm_polygon" (way)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9857,7 +9857,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties>
             <Option/>
           </customproperties>
-          <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" name="Service Requests" legend_split_behavior="0" id="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+          <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" name="Service Requests" legend_split_behavior="0" id="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
             <customproperties>
               <Option type="Map">
                 <Option name="cached_name" type="QString" value="Service Requests"/>
@@ -10020,7 +10020,7 @@ def my_form_open(dialog, layer, feature):
           <Option name="singleFile" type="bool" value="false"/>
         </Option>
       </customproperties>
-      <Atlas coverageLayerProvider="postgres" sortFeatures="0" pageNameExpression="&quot;group_id&quot;" coverageLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" filenamePattern="@atlas_pagename" filterFeatures="0" enabled="1" coverageLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" coverageLayerName="Group boundary" hideCoverage="0"/>
+      <Atlas coverageLayerProvider="postgres" sortFeatures="0" pageNameExpression="&quot;group_id&quot;" coverageLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" filenamePattern="@atlas_pagename" filterFeatures="0" enabled="1" coverageLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" coverageLayerName="Group boundary" hideCoverage="0"/>
     </Layout>
   </Layouts>
   <mapViewDocks3D/>
@@ -10093,7 +10093,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerName="Service Requests" autoAddTrackVertices="0" autoCommitFeatures="0" destinationLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" destinationFollowsActiveLayer="1" destinationLayer="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" destinationLayerProvider="postgres">
+  <ProjectGpsSettings destinationLayerName="Service Requests" autoAddTrackVertices="0" autoCommitFeatures="0" destinationLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='qgis_uid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_grouped_requests&quot; (geom)" destinationFollowsActiveLayer="1" destinationLayer="kmeans_grouped_requests_1aa9d935_9dff_4954_b1b6_fa6b97bfa3ce" destinationLayerProvider="postgres">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>

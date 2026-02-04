@@ -22,12 +22,12 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" name="kmeans_group_boundaries" legend_split_behavior="0" id="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" name="kmeans_group_boundaries" legend_split_behavior="0" id="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='ogc_fid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;311_requests&quot; (wkb_geometry) sql=failurecode != 'BUS STOP'" name="311_requests" legend_split_behavior="0" id="311_requests_3a230850_f3c7_4b82_b51b_4ccb0b877803" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
+    <layer-tree-layer source="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='ogc_fid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;311_requests&quot; (wkb_geometry) sql=failurecode != 'BUS STOP'" name="311_requests" legend_split_behavior="0" id="311_requests_3a230850_f3c7_4b82_b51b_4ccb0b877803" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" providerKey="postgres" expanded="1">
       <customproperties>
         <Option/>
       </customproperties>
@@ -170,7 +170,7 @@
         <ymax>43.8374218420000048</ymax>
       </wgs84extent>
       <id>311_requests_3a230850_f3c7_4b82_b51b_4ccb0b877803</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='ogc_fid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="nwessel"."311_requests" (wkb_geometry) sql=failurecode != 'BUS STOP'</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='ogc_fid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="nwessel"."311_requests" (wkb_geometry) sql=failurecode != 'BUS STOP'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1670,7 +1670,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>43.83742184306208145</ymax>
       </wgs84extent>
       <id>kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54</id>
-      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_group_boundaries" (bound_geom)</datasource>
+      <datasource>dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="nwessel"."kmeans_group_boundaries" (bound_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2874,7 +2874,7 @@ def my_form_open(dialog, layer, feature):
           <Option name="singleFile" type="bool" value="true"/>
         </Option>
       </customproperties>
-      <Atlas coverageLayerProvider="postgres" sortFeatures="0" pageNameExpression="&quot;cluster_id&quot;" coverageLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" enabled="1" coverageLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" coverageLayerName="kmeans_group_boundaries" hideCoverage="0"/>
+      <Atlas coverageLayerProvider="postgres" sortFeatures="0" pageNameExpression="&quot;cluster_id&quot;" coverageLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" enabled="1" coverageLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" coverageLayerName="kmeans_group_boundaries" hideCoverage="0"/>
     </Layout>
   </Layouts>
   <mapViewDocks3D/>
@@ -2947,7 +2947,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerName="kmeans_group_boundaries" autoAddTrackVertices="0" autoCommitFeatures="0" destinationLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 user='nwessel' key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" destinationFollowsActiveLayer="1" destinationLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" destinationLayerProvider="postgres">
+  <ProjectGpsSettings destinationLayerName="kmeans_group_boundaries" autoAddTrackVertices="0" autoCommitFeatures="0" destinationLayerSource="dbname='bigdata' host=trans-bdit-db-prod0-rds-smkrfjrhhbft.cpdcqisgj1fj.ca-central-1.rds.amazonaws.com port=5432 key='uid' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;nwessel&quot;.&quot;kmeans_group_boundaries&quot; (bound_geom)" destinationFollowsActiveLayer="1" destinationLayer="kmeans_group_boundaries_eb097067_3fab_42e2_aa24_40775b59da54" destinationLayerProvider="postgres">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
