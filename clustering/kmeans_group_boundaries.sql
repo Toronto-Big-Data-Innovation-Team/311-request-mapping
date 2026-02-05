@@ -5,7 +5,7 @@ SELECT
     group_id,
     ownergroup,
     cluster_id,
-    ST_ConvexHull(ST_Collect(wkb_geometry)) AS bound_geom,
+    ST_ConvexHull(ST_Collect(geom)) AS bound_geom,
     COUNT(*) AS n
 FROM nwessel.kmeans_grouped_requests
 GROUP BY

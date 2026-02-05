@@ -17,7 +17,7 @@ CROSS JOIN LATERAL (
     SELECT
         *,
         ST_ClusterKMeans(
-            ST_Transform(wkb_geometry, 2952),
+            ST_Transform(geom, 2952),
             ownergroups.desired_k,
             max_radius => 2500
         ) OVER (PARTITION BY ownergroup) AS cluster_id
