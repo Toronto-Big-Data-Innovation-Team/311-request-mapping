@@ -1,10 +1,10 @@
-CREATE OR REPLACE VIEW nwessel.kmeans_grouped_requests AS
+CREATE OR REPLACE VIEW data_analysis.m311_kmeans_grouped_requests AS
 
 WITH ownergroups AS (
     SELECT
         ownergroup,
         (COUNT(*) / 50::real)::int AS desired_k
-    FROM nwessel.requests_filtered
+    FROM data_analysis.m311_requests_filtered
     GROUP BY ownergroup
 )
 
@@ -21,9 +21,11 @@ CROSS JOIN LATERAL (
             ownergroups.desired_k,
             max_radius => 2500
         ) OVER (PARTITION BY ownergroup) AS cluster_id
-    FROM nwessel.requests_filtered AS requests
+    FROM data_analysis.m311_requests_filtered AS requests
     WHERE
         requests.ownergroup = ownergroups.ownergroup
-        AND failurecode != 'BUS STOP'
 ) AS clust
 ORDER BY ownergroup, cluster_id;
+
+
+ALTER VIEW data_analysis.m311_kmeans_grouped_requests OWNER TO analysis_admins;
