@@ -5,6 +5,6 @@
 SELECT
     wonum,
     group_id
-FROM nwessel.requests_raw AS requests
-LEFT JOIN nwessel.kmeans_grouped_requests USING (wonum)
+FROM data_analysis.m311_requests_raw AS requests
+LEFT JOIN data_analysis.m311_kmeans_grouped_requests USING (wonum)
 ORDER BY wonum;
