@@ -14,4 +14,5 @@ GROUP BY
     cluster_id
 HAVING COUNT(*) > 2;
 
-ALTER VIEW data_analysis.m311_kmeans_group_boundaries OWNER TO analysis_admins;
+ALTER VIEW data_analysis.m311_kmeans_group_boundaries OWNER TO team_ds;
+GRANT SELECT ON data_analysis.m311_kmeans_group_boundaries TO bdit_humans;

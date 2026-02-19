@@ -13,4 +13,5 @@ WHERE
         AND ownergroup != 'TSFITEY'
     );
     
-ALTER VIEW data_analysis.m311_requests_filtered OWNER TO analysis_admins;
+ALTER VIEW data_analysis.m311_requests_filtered OWNER TO team_ds;
+GRANT SELECT ON data_analysis.m311_requests_filtered TO bdit_humans;

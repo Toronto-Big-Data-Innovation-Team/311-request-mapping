@@ -28,4 +28,5 @@ CROSS JOIN LATERAL (
 ORDER BY ownergroup, cluster_id;
 
 
-ALTER VIEW data_analysis.m311_kmeans_grouped_requests OWNER TO analysis_admins;
+ALTER VIEW data_analysis.m311_kmeans_grouped_requests OWNER TO team_ds;
+GRANT SELECT ON data_analysis.m311_kmeans_grouped_requests TO bdit_humans;
